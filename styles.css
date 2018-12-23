@@ -1,35 +1,33 @@
 * {
-  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 body {
-  
   height: 100vh;
   display: flex;
   background-image: url(images/sunflower.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+}
+#message {
+  margin: 0 auto;
 }
 
-section {
-
-}
-section h1, h3 {
+section h1,
+h3 {
   position: relative;
   left: 4%;
-  
+
   color: gold;
   font-family: Ariel;
-  
+
   font-size: 2.9em;
-  margin-bottom: 20px ;
-  
+  margin-bottom: 20px;
 }
-h3{font-style: italic;
+h3 {
+  font-style: italic;
   font-size: 2em;
   position: relative;
   left: 8%;
@@ -53,13 +51,13 @@ h3{font-style: italic;
   position: relative;
   transform: scale(1);
   transform-style: preserve-3d;
-  transition: transform .5s;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .memory-card:active {
   transform: scale(0.97);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .memory-card.flip {
@@ -73,7 +71,7 @@ h3{font-style: italic;
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background: #1c7ccc;
   backface-visibility: hidden;
 }
 

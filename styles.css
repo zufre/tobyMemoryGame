@@ -90,5 +90,6 @@ h3 {
 
   .memory-game {
     padding-bottom: initial;
+    min-width: 100%;
   }
 }

@@ -76,10 +76,10 @@ h3 {
 
 @media only screen and (max-width: 500px) {
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   h3 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 }
 .memory-game {

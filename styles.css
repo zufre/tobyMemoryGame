@@ -84,6 +84,6 @@ h3 {
 
   .memory-game {
     padding-bottom: 0px;
-    max-width: 500px;
+    max-width: auto;
   }
 }
